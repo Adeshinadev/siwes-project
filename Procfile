@@ -1,1 +1,1 @@
-web: gunicorn siwesdemo.wsgi --log-file - --log-level debug --preload --workers 1
+web: gunicorn siwes.wsgi --log-file - --log-level debug --preload --workers 1
